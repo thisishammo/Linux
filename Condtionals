@@ -1,0 +1,8 @@
+#!/bin/bash
+read y
+if [[ $y == "Y" || $y == "y" ]]; then
+    echo "YES"
+fi
+if [[ $y == "N" || $y == "n" ]]; then
+    echo "NO"
+fi
