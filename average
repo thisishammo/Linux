@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p "How many numbers?" n
+for i in {1..$n}
+do
+	read a
+	sum = $(($sum + $a))
+done
+echo $(($sum / $a))

@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p n "The factorial of which number?"
+for i in {1..$p}
+do
+	prod = $(($i*$prod))
+done
+echo "$prod"

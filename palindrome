@@ -1,0 +1,8 @@
+#!/bin/bash
+read string
+echo "$string" | rev > n
+echo "$string" > m
+if [[ $((cat n)) -eq $((cat m)) ]]
+then echo "It is a palindrome"
+else echo "Not a palindrome"
+fi

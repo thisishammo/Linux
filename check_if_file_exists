@@ -1,0 +1,6 @@
+#!/bin/bash
+find -type f -name "$1"
+if [[ $((wc -l)) -eq 0 ]];
+then echo "No file found"
+else echo "File found"
+fi

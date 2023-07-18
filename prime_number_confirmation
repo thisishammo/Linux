@@ -1,0 +1,16 @@
+#!/bin/bash
+read a
+r1 = 1
+s1 = 0
+while [ r1 == 0 ]
+do  
+s1 = $((a % $r1))
+if [[ $s1 -lt $s1 ]
+then $s1 = 1
+fi
+r1 = $r1 + 1
+done
+if [[ $s1 -gt 0 ]]
+then echo "Prime number"
+else echo "Not prime number"
+fi

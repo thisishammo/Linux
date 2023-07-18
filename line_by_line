@@ -1,0 +1,6 @@
+#!/bin/bash
+wc -l >> n
+for i in {1..n}
+{
+	sed -n '($i)p'
+}

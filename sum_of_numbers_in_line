@@ -1,0 +1,8 @@
+#!/bin/bash
+n = $((wc -l))
+for i in {1..n}
+do
+	a = $((head -$i | tail -1))
+	sum = $(($a + $sum))
+done
+echo "$sum"
